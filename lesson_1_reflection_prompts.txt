@@ -1,0 +1,47 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    bugs could happen from typos or change made in the newer version. comparing
+    the files makes the changes stand out. the changes is usually where the bug
+    is located.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You can later view the changes made for some purposes. For example, you can
+    later refer to the changes you've made to implement feature A when you need
+    to implement this same feature in another project.
+
+    You can track what has been done to the project. to identify bugs, for example.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    manually choosing when to commit is good because each commit represents a logical
+    change or a single purpose. you might risk a chance of losing something though if
+    you forgot to commit.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    because git deals a lot with code. in a single project, there are many files inter-
+    related. one commit/one change involves a change in many files at once. it's 
+    logical to have many files in one commit.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log or git log --stat shows the history. each history has commit id.
+    you can compare between commits using git diff <commit-id-1> <commit-id-2>.
+    note that you don't need to put the whole commit-id string. just the first 4-5
+    characters is ok. also, to navigate the git log, you can use arrows. to quit
+    the log, press q.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    because we can checkout the previously commited bug-free version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    to manage version of my android projects
